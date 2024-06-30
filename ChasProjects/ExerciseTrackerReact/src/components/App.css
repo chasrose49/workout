@@ -1,0 +1,24 @@
+
+ 
+#starNumberInput{
+        display:none
+    }
+   
+    .star-rating-filled:hover{
+        fill:gold;
+    
+    }
+    .star-rating-blank{
+        fill: #d8d8d8;
+    }  
+    
+.inline{
+    display: inline;
+}
+
+    
+#logo{
+    border:double 5px navajowhite;
+    border-radius: 10%
+
+}

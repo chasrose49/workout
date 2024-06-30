@@ -1,0 +1,75 @@
+body{
+  background-color: aliceblue
+}
+.homePageHeader,.header{
+font-size:3rem;
+font-weight: bold
+}
+.small-red-drink {
+  font-size:.5em ;
+  color:red;
+}
+.homeNav{
+ padding:2%;
+}
+.homeNav > .nav-links{
+  font-size:3rem;
+ }
+#logo {
+  width:15%;
+  border-radius: 50%;
+  border:2px solid white;
+}
+.changedNav{
+  padding:5%;
+ }
+ .bold{
+  font-weight: bold
+}
+.card {
+  width:30%;
+}
+.click {
+  position:relative;
+  margin-top:2%
+}
+.hideMe {
+  display:none;
+}
+.underline{
+  text-decoration-line: underline;
+}
+.borderImg{
+  border:3px black solid;
+} 
+.clickCards{
+  margin-left: 20%;
+  column-gap: 5%;
+}
+ol>li{
+  list-style: none
+}
+.shadow{
+  text-shadow: 2px 2px 1px white
+}
+.red-shadow{
+  text-shadow: 1px 1px 1px red
+}
+.blue-shadow{
+  text-shadow: 2px 2px 1px black
+}
+.homepic{
+  border:solid 5px ;
+  border-radius:50%;
+}
+.menuLink{
+  font-weight: bold;
+  margin-left: 2rem;
+}
+.border{
+  border: 2px solid black;
+  margin-top:30px;
+}
+.noMarginBtm{
+  margin-bottom: -10px
+}

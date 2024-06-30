@@ -1,0 +1,704 @@
+/*
+======================
+All background images
+======================
+*/
+
+#bg1{
+    background: url(images/e853cd3b9f00897574fb9dddb4a7395a.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; 
+}
+#bg2{
+    background: url(images/20270ab8368864af0f9f7a2f18b56d7c.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-attachment: fixed;  
+}
+#bg3{
+    background: url(images/8bf2d06c9164fbf8bc6d36159806d1be.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-attachment: fixed;
+}
+.pearl1, .pearl2, .pearl3, .pearl4, .pearl5, .pearl6, .pearl7, .pearl8, .pearl9, .pearl10,.pearl11, .pearl12{
+    background: url(images/openedclamshell.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 10px; 
+}
+
+/*
+===============
+    All IDS
+===============
+*/
+#welcome{
+    margin-top: 50px;
+    color: gold;
+    text-shadow: 2px 2px 8px rgb(13, 100, 92);
+}
+#list{
+    color: gold;
+    font-size: 1.5em;
+    font-style: bold;
+    text-shadow: 2px 4px 8px rgb(13, 100, 92);
+}
+#rules{
+    color: gold;
+    list-style-position: inside;
+    margin-top: 20px;
+    display: none; 
+}
+#game{
+    margin-top: 35px;
+    color: gold;
+    font: bold;
+    font-size: 2.5em;
+    font-family: cursive;
+    
+}
+#scoreboard{
+    font-size: 1em;
+    margin-top: 50px;
+    margin-bottom: 50px;    
+}
+#numGuess{
+    margin-bottom: 10px;
+   
+} 
+#numGuess, #guessGet, #guessed{
+    font-size: 1.8vw;
+}
+
+
+#ariel, #flounder, #prince-eric, #king-triton{
+    float: inline-start;
+    padding:15px;
+
+}
+#pearls p{
+    display: inline;     
+}
+
+#ursulapose{
+    display:none; 
+}
+#inked{
+    text-align: center;
+    
+}
+#inked2{
+    display:none;
+}
+
+#numGuess{
+   
+    color: gold;
+    font: bold;
+    font-family: cursive;
+    width: auto;
+}
+
+/*
+============
+All Classes
+============
+*/
+
+.score{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    
+}
+
+.sea{
+    font-size: 5vw;
+    font-family: cursive;
+}
+.readrulesButton{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+    border: solid green 3px;
+    background-color: aquamarine;
+    padding: 25px;
+}
+.choice{
+    padding: 50px;
+}
+.easy{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+    border: solid green 3px;
+    background-color: aquamarine;
+    padding: 25px;
+}
+.medium{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+    border: solid green 3px;
+    background-color: aquamarine;
+    padding: 25px;
+}
+.hard{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+    border: solid green 3px;
+    background-color: aquamarine;
+    padding: 25px;
+}
+.startGame{
+    display: none;
+    text-align: center;
+    margin:0;
+   
+}
+.letter{
+    color: rgb(110, 33, 198);
+    font-size: 5vw;
+    font-family: cursive;
+    text-align: center;
+    text-shadow: 2px 0px #fff;
+  
+
+}
+
+.choosecharacterbutton{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+    border: solid green 3px;
+    background-color: aquamarine;
+    padding: 25px;  
+    display:none
+}
+.characters{
+    display: none;
+}
+
+.charHead{
+    color: black;
+    text-shadow: gold 2px 0px;
+    font-size: 4vw;
+    font-family: cursive;
+    margin-top:50px
+}
+
+
+.choice1, .choice2, .choice3, .choice4, .choice5, .choice6, .choice7, .choice8, .choice9, .choice10, .choice11, .choice12{
+    font-size: 30px;
+    color: rgb(123, 12, 235);
+    padding: 8px;    
+}
+.pearl1, .pearl2, .pearl3, .pearl4, .pearl5, .pearl6, .pearl7, .pearl8, .pearl9, .pearl10,.pearl11, .pearl12{
+    display:none;
+    padding: 15px;
+    width:auto;
+    margin-top:150px;
+  
+}
+.size{
+    max-height: 250px;
+    min-height: 150px;
+    margin-top: -225px;
+    padding: 25px;
+    padding-left: 135px;
+    justify-content: center;
+}
+.loser{
+    display:none;
+    color: black;
+    text-shadow: gold 2px 0px;
+    font-size: 4vw;
+    font-family: cursive;
+}
+.reload1{
+    font: bold;
+    font-size: 1em;
+    border-radius: 50%;
+    border: solid green 3px;
+    background-color:aquamarine; 
+    padding: 25px;
+    display:none; 
+    align-self: auto;
+    font-family: cursive;   
+}
+.reload2{
+    font: bold;
+    font-size: 1em;
+    border-radius: 50%;
+    border: solid green 3px;
+    background-color:aquamarine; 
+    padding: 10px;
+    display:none; 
+    font-family: cursive;
+  
+}
+
+.chooseChest{
+    font-size: 4em;
+    color: goldenrod;
+    text-shadow: 2px 2px 8px rgb(13, 100, 92);
+    font-family: cursive;  
+   
+}
+.chestpick{
+    color: goldenrod;
+ 
+}
+.openchest1, .openchest2, .openchest3{
+    display: none;
+}
+.treasures{
+    margin:0;
+    display:none;
+}
+.prize1, .prize2, .prize3, .prize4, .prize5, .prize6, .prize7, .prize8, .prize9{
+    display: none;   
+}
+
+.start{
+    display:none; 
+}
+.necklace, .trident, .dingle, .onep, .star, .clip, .weed, .scuttle, .seabastian{
+    display:none;
+    font-size: 2vw;
+    color: white;
+    font: bold;
+    font-family: cursive;  
+}
+
+
+@media screen and (min-width:320px){
+    .readrulesButton, .easy, .medium, .hard, .reload1,.reload2{
+        margin-top:30px;
+        padding:10px
+    }
+
+    .charHead{
+        font-size:30px
+    }
+    #prince-eric{
+        margin-left:20px
+
+    }
+    #prince-eric, #ariel{
+        height: 150px;
+        width: 100px
+    }
+    #flounder{
+        height:100px;
+        width:150px
+    }
+    #king-triton{
+        height:150px;
+        width:120px;
+        margin-left:-15px;
+        padding-left:0px
+    }
+
+    .players{
+        margin-left:20px
+    }
+    .chest1{
+        margin-left:60px
+    }
+    .think,.letter{
+        font-size:20px;
+        margin:0px
+    }
+    #game{
+        margin:0px
+    }
+     #numGuess, #guessGet{
+         font-size:16px
+     }
+     .pearl1, .pearl2, .pearl3, .pearl4, .pearl5, .pearl6, .pearl7, .pearl8, .pearl9, .pearl10,.pearl11, .pearl12{
+         width:20%
+     }
+     .choice1, .choice2, .choice3, .choice4, .choice5, .choice6, .choice7, .choice8, .choice9, .choice10, .choice11, .choice12{
+         font-size:10px;
+         padding:0px
+     }
+     .pearl6, .pearl7, .pearl8, .pearl9, .pearl10,.pearl11, .pearl12{
+         margin:0px
+     }
+     .loser{margin-top:50px;
+        font-size:24px
+    }
+     .chooseChest{
+       font-size:28px;
+       margin-left:20px;
+       margin-top:10px
+     }
+
+    .chestpick img{
+        width: 200px;
+        height: 120px
+    }
+    .chestpick p{
+        font-size:20px;
+        color:black;
+      }   
+         
+   .reload2{
+       margin-left:60px
+   }
+
+}
+
+
+@media screen and (min-width:400px){
+    .players{
+        margin-left:70px
+    }
+    .chooseChest{
+        margin-left:70px;
+    }
+    .chest1{
+        margin-left:100px
+    }
+    .pearl1, .pearl2, .pearl3, .pearl4, .pearl5, .pearl6, .pearl7, .pearl8, .pearl9, .pearl10,.pearl11, .pearl12{
+        width:20%;
+      }
+}
+
+@media screen and (min-width:500px){
+ .players{
+     padding-right: 15px ;
+     margin-left:2px
+ }
+    #prince-eric, #ariel{
+        height: 150px;
+        width: 100px
+    }
+    #flounder{
+        height:100px;
+        width:150px
+    }
+    #king-triton{
+        height:150px;
+        width:120px;
+        
+    }
+
+}
+
+@media screen and (min-width:550px){
+    .readrulesButton, .easy, .medium, .hard, .reload1{
+        margin-top:30px;
+        padding:30px
+    }
+    .sea, .charHead{
+        font-size:60px
+    }
+    #prince-eric, #ariel{
+        height: 220px;
+        width: 170px
+    }
+    #flounder{
+        height:170px;
+        width:220px
+    }
+    #king-triton{
+        height:220px;
+        width:220px
+    }
+    .players{
+        margin-left: 60px
+    }
+    .think,.letter{
+        font-size:34px;
+        margin:0px
+    }
+    .pearl1, .pearl2, .pearl3, .pearl4, .pearl5, .pearl6, .pearl7, .pearl8, .pearl9, .pearl10,.pearl11, .pearl12{
+        width:20%;
+       margin:1px
+    }
+    .choice1, .choice2, .choice3, .choice4, .choice5, .choice6, .choice7, .choice8, .choice9, .choice10, .choice11, .choice12{
+        font-size:22px;
+        padding:15px
+    }
+    #pearls{
+        margin-top:140px
+    }
+
+    .chooseChest{
+       font-size:50px;
+       margin-left:70px;
+       margin-top:50px;
+       margin-bottom:40px;
+       color:black
+    }
+
+   .openchest1{
+       margin-top:150px
+   }
+   .chestpick p{
+    font-size:40px;
+    color:black;
+  }   
+
+   .reload2{
+       padding:20px;
+       margin-left:150px
+   }
+}
+
+
+    
+@media screen and (min-width:650px){
+    #prince-eric, #ariel{
+        height: 260px;
+        width: 200px;
+    margin-left: 120px
+    }
+    #flounder{
+        height:210px;
+        width:260px;
+        margin-left: 120px
+    }
+    #king-triton{
+        height:260px;
+        width:260px
+    }
+
+    .pearl1, .pearl2, .pearl3, .pearl4, .pearl5, .pearl6, .pearl7, .pearl8, .pearl9, .pearl10,.pearl11, .pearl12{
+        width:100%;
+       margin:5px;
+       padding:20px
+    }
+    .choice1, .choice2, .choice3, .choice4, .choice5, .choice6, .choice7, .choice8, .choice9, .choice10, .choice11, .choice12{
+        font-size:28px;
+   
+       padding:5px
+    }
+    .reload2{
+        padding:20px;
+        margin-left:220px
+    }
+
+    .chooseChest{
+        font-size:52px;
+    }
+    .chestpick img{
+        width: 250px;
+        height: 170px
+    }
+}
+
+@media screen and (min-width:800px){
+    #prince-eric, #ariel{
+        height: 270px;
+        width: 190px
+    }
+    #flounder{
+        height:220px;
+        width:270px
+    }
+    #king-triton{
+        height:270px;
+        width:270px
+    }
+   .players{
+     margin-left:20px;
+     padding:0px
+    }
+
+   .pearl1, .pearl2, .pearl3, .pearl4, .pearl5, .pearl6, .pearl7, .pearl8, .pearl9, .pearl10,.pearl11, .pearl12{
+     padding:10px;
+     margin-left:20px
+    }
+    .letter{
+    font-size:40px
+    }
+    #numGuess,#guessGet{
+     font-size:24px
+    }
+    .chooseChest{
+     margin-left:140px
+    }
+    .loser{
+     font-size:50px
+    }
+}
+
+
+@media screen and (min-width:850px){
+   .players{
+       margin-left:50px
+   } 
+   .charHead{
+       font-size:80px
+   }
+   .letter{
+       font-size:60px
+    }
+    .chooseChest{
+        font-size:70px;
+         margin-left:100px
+    }
+    .chestWon p{
+        font-size:60px
+       
+    }
+ .reload2{
+     margin-left:340px
+ }
+}
+
+@media screen and (min-width:950px){
+    .players{
+     margin-left:100px
+    } 
+}
+
+@media screen and (min-width:1000px){
+    .chooseChest{
+     font-size:100px;
+     margin-left:80px;
+     margin-top:150px
+    }
+   
+    .weed{
+        margin-left:280px
+    }
+    .openchest1{
+        margin-left:200px
+    }
+    .reload2{
+        margin-left:420px
+    }
+    .chestWon p{
+        font-size:30px
+    }
+    .chestpick{
+        margin-left:80px
+    }
+    .prize2{
+     width: 200px;
+     height: 120px;
+     margin-top:100px
+    }
+    .openchest2{
+        margin:50px 0px 0px 380px;
+    }
+    .prize6{
+      margin-left:330px
+    }
+   .prize9{
+    width: 180px;
+    height: 100px;
+    }
+   .openchest3{
+      margin-top:50px;
+      margin-left:10px
+    }
+    .clip{
+    margin-right:60px
+    }
+   .prize7{
+    margin-top:100px
+   }
+  .scuttle{
+     margin-left:350px
+  }
+  .prize8{
+      margin-left:350px
+  }
+  .seabastian{
+      padding-left:380px
+  }
+  .prize4{
+    width: 100px;
+    height: 60px;
+  }
+.onep{
+    margin-left:20px
+}
+  .prize4{
+      height:90px;
+      width:90px
+  }
+  .prize1{
+      margin-top:150px
+  }
+  .trident{
+      margin-left:300px
+  }
+  .prize3{
+      margin-left:320px
+    }
+    .dingle{
+        padding-right:60px
+    }
+}
+
+@media screen and (min-width:1200px){
+    #prince-eric, #ariel{
+        height: 240px;
+        width: 160px
+    }
+    #flounder{
+        height:190px;
+        width:240px
+    }
+    #king-triton{
+        height:240px;
+        width:240px
+    }
+    .charHead{
+    margin:200px 0px 100px 0px
+    }
+    .players{
+        margin-left:0px
+    }
+    
+    .choice1, .choice2, .choice3, .choice4, .choice5, .choice6, .choice7, .choice8, .choice9, .choice10, .choice11, .choice12{
+        margin-left:20px
+    }
+
+    #guessGet{
+        margin-bottom:50px
+    }
+    .treasures{
+        margin-left:100px;
+        padding-top:50px
+    }
+}
+
+@media screen and (min-width:1400px){
+.players{
+    margin-left:75px
+}
+.chestpick{
+    margin-left:120px
+}
+}
+
+@media screen and (min-width:1500px){
+    .players{
+        margin-left:100px
+    }
+    .chestpick{
+        margin-left:160px
+    }
+}
+
+@media screen and (min-width:1600px){
+    .charHead{
+        margin-left: -71px
+    }
+    .players{
+        margin-left: 200px
+    }
+}

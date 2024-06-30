@@ -1,0 +1,18 @@
+.hideMe{display: none
+}
+#handContainer{
+     margin-bottom: 5px;
+    display:flex;
+}
+#cardP,#cardInPlay,#newCardInPlay{
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px black solid;
+    margin: 10px;
+    box-shadow: 1px 1px 1px red;
+    width:10px
+}
+
+#handDisplay{
+margin-top: 35px
+}

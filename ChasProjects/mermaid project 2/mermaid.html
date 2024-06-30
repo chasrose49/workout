@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <title>Under The Sea Letter Game</title>
+    <link rel="stylesheet" href="http://static.tlmworks.org/track1/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="mermaid.css">
+</head>
+
+<body id="bg1">
+
+    <!--Home Page-->
+    <div class="home">
+        <div class="container text-center" id="welcome">
+            <h1 class="sea">Welcome To Under The Sea! </h1>
+        </div>
+        <!--container-->
+
+        <div class="text-center">
+            <button class="readrulesButton ">Click to read rules</button>
+        </div>
+        <!--text center-->
+
+        <div class="container" id="list">
+
+            <div class="text-center" id="rules">
+                <h1 class="text-center">Game Rules:</h1>
+
+                <ol>
+                    <li>Choose a level</li>
+                    <li>Easy level has 12 guesses</li>
+                    <li>Medium level has 6 guesses</li>
+                    <li>Hard level has 3 guesses</li>
+                    <li>Choose a character</li>
+                    <li>Guess the magic letter</li>
+                    <li>If player guesses correctly you win a treasure chest!</li>
+                    <li><b>Watch out for Ursula!</b> She will steal your pearls if you guess wrong.</li>
+                </ol>
+
+            </div>
+            <!--rules-->
+        </div>
+        <!--container-->
+
+        <div class="choice text-center">
+            <button class="easy">Easy</button>
+            <button class="medium">Medium</button>
+            <button class="hard">Hard</button>
+        </div>
+        <!--choice-->
+
+    </div>
+    <!--Home-->
+
+    <div class="characters container-fluid text-center">
+        <h1 class="charHead">Choose A Character</h1>
+        <img class="start" src="images/closedclamshell.png">
+        <div class="row">
+
+            <div id="yourPick" class="players col-xl-12">
+
+                <img class="img-fluid" id="prince-eric" src="images/Ericpic1.png">
+                <img class="img-responsive" id="ariel" src="images/Ariel_disney.png">
+
+                <img class="img-fluid" id="flounder"
+                    src="images/clip-art-flounder-the-little-mermaid-image-portable-network-flounder-png-900_560.png">
+
+
+                <img class="img-fluid" id="king-triton" src="images/King_Triton.png">
+
+
+            </div>
+            <!--col-->
+
+        </div>
+        <!--row-->
+
+    </div>
+    <!--Game Page-->
+    <div class="container-fluid startGame">
+        <h1 class='letter'>Under The Sea Guessing Game!</h1><br>
+        <div id="game">
+            <p class="think">Guess what letter I'm thinking of:</p>
+        </div>
+        <div class="row text-center">
+            <div class="score col-lg-12 text-center">
+                <h3 class="text-center" id="numGuess">Number of Guesses:
+                    <p id="guessGet"></p>
+                </h3>
+            </div>
+        </div>
+        <!--col-->
+
+        <div class="score col-sm-4">
+            <p id="guessed"></p>
+        </div>
+        <!--col-->
+
+
+        <!--row-->
+
+        <!--game-->
+    </div>
+    <!--Ursula page-->
+    <div class="container" id="inked">
+        <div class="col-xl-12">
+
+            <h1 class="loser">Ursula stole your pearl and INKED you!</h1>
+            <img class="img-fluid" src="images/inkedursula.png" id="inked2">
+            <button class="reload1">Try again</button>
+
+
+
+        </div>
+        <!--col-->
+
+    </div>
+    <button class="choosecharacterbutton">Click to choose character</button>
+
+
+    <!--container fluid-->
+
+    <div class="container" id="pearls">
+        <div class="size row">
+            <div class="pearl1 col-sm-1">
+                <p class="choice1"></p>
+            </div>
+            <!--col-->
+
+            <div class="pearl2 col-sm-1">
+                <p class="choice2"></p>
+            </div>
+            <!--col-->
+
+            <div class="pearl3 col-sm-1">
+                <p class="choice3"></p>
+            </div>
+            <!--col-->
+
+            <div class="pearl4 col-sm-1">
+                <p class="choice4"></p>
+            </div>
+            <!--col-->
+
+            <div class="pearl5 col-sm-1">
+                <p class="choice5"></p>
+            </div>
+            <!--col-->
+
+            <div class="pearl6 col-sm-1">
+                <p class="choice6"></p>
+            </div>
+            <!--col-->
+
+            <div class="pearl7 col-sm-1">
+                <p class="choice7"></p>
+            </div>
+            <!--col-->
+
+            <div class="pearl8 col-sm-1">
+                <p class="choice8"></p>
+            </div>
+            <!--col-->
+
+            <div class="pearl9 col-sm-1">
+                <p class="choice9"></p>
+            </div>
+            <!--col-->
+
+            <div class="pearl10 col-sm-1">
+                <p class="choice10"></p>
+            </div>
+            <!--col-->
+
+            <div class="pearl11 col-sm-1">
+                <p class="choice11"></p>
+            </div>
+            <!--col-->
+
+            <div class="pearl12 col-sm-1">
+                <p class="choice12"></p>
+            </div>
+            <!--col-->
+
+        </div>
+        <!--row-->
+
+    </div>
+    <!--container-->
+
+
+    <!--container fluid-->
+
+
+    <!--container fluid-->
+
+    <!--Treasure Chest page-->
+    <div class="treasures">
+        <div class="container closed">
+
+            <h1 class="chooseChest">Choose a chest prize:</h1>
+
+
+            <!--col-->
+        </div>
+        <!--container fluid-->
+
+        <div class="chestpick container text-center">
+            <div class="row">
+                <div class="chestWon">
+
+                    <img class="chest1" src="images/closed1.png">
+                    <div class="row">
+
+                        <img class="openchest1" src="images/open1.png">
+
+                        <img class="prize2" src="images/yellowhairclip.png">
+                        <p class="weed">You won a yellow hair clip!</p>
+
+
+                        <img class="prize1" src="images/King_Triton's_Trident.png">
+                        <p class="trident">You won the kings Trident!</p>
+
+
+                        <img class="prize7" src="images/lf.png">
+                        <p class="scuttle">You won Scuttle!</p>
+                    </div>
+
+                </div>
+                <!--col-->
+
+                <div class="col-lg-4 chestWon">
+                    <img class="chest2" src="images/closed2.png">
+
+                    <div class="row">
+                        <img class="openchest2" src="images/open1.png">
+
+                        <img class="prize3" src="images/Pearl-Necklace-1__94940_zoom.png">
+                        <p class="necklace">You won a pearl necklace!</p>
+
+                        <img class="prize8" src="images/seabastian.png">
+                        <p class="seabastian">You won Seabastian!</p>
+
+                        <img class="prize6" src="images/star.png">
+                        <p class="text-center star">You won a star fish!</p>
+                    </div>
+
+
+                </div>
+                <!--col-->
+
+                <div class="col-lg-4 chestWon">
+                    <img class="chest3" src="images/closed3.png">
+                    <div class="row">
+                        <img class="openchest3" src="images/open1.png">
+                        <img class="prize5" src="images/fork.png">
+                        <p class="dingle">You won the Dingle Hopper!</p>
+                        <img class="prize4" src="images/pearl1.png">
+                        <p class="onep">You won a pearl!</p>
+                        <img class="prize9" src="images/purplehairclip.png">
+                        <p class="clip">You won a purple hair clip!</p>
+                    </div>
+
+
+                </div>
+                <!--col-->
+
+            </div>
+            <!--row-->
+
+        </div>
+        <!--container fluid-->
+        <div class="col-md-12">
+
+            <button class="reload2">Choose New Level?</button>
+
+        </div>
+
+    </div>
+    <!--Treasure-->
+
+
+
+</body>
+<script src="http://static.tlmworks.org/track_1.0/cdns/jquery-3.3.1.min.js"></script>
+<script src="mermaid.js"></script>
+
+</html>
